@@ -15,13 +15,9 @@ One line per message, color-coded, 1024-char cap. Zero dependencies.
 
 ```bash
 # Run directly (no clone needed)
-npx tsx https://raw.githubusercontent.com/wiwiwa/hermes-tail/main/hermes-tail.ts
-
-# Or clone
-git clone git@github.com:wiwiwa/hermes-tail.git
-cd hermes-tail
-npx tsx hermes-tail.ts
+curl -sSL https://github.com/wiwiwa/hermes-tail/raw/refs/heads/master/hermes-tail.ts | npx tsx -
 ```
+
 
 ## Requirements
 
